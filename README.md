@@ -15,4 +15,4 @@
         convertUTF8ToISO88591( *cstring _in, *cstring _out ),raw,name('_convertUTF8ToISO88591')
     end !* end *
     
-!! END
+! END
