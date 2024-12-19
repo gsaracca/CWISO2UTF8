@@ -5,7 +5,7 @@
 ! ========================================================================== !
 !  Include the file (cw_iso_2_uft.inc.INC) in your program MAP
 ! ========================================================================== !
-! MAP
+!! MAP
 
     module('convert_iso_2_utf.cpp')
         replaceChar( *cstring str, short oldChar, short newChar),raw,name('_replaceChar')
@@ -13,4 +13,4 @@
         convertUTF8ToISO88591( *cstring _in, *cstring _out ),raw,name('_convertUTF8ToISO88591')
     end !* end *
     
-! END
+!! END
