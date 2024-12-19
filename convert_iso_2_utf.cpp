@@ -1,11 +1,12 @@
 /*
-    Gustavo Saracca & ChatGPT para la versión de estas dos librerías.
+    Gustavo Saracca.
     2024-06-07
     v 0.1
+    Tested and supplied without any warranty. Use at your own risk.
 */
 
 // ------------------------------------------------------------------------------------------------
-// Función para reemplazar un carácter por otro en una cadena
+// FunciÃ³n para reemplazar un carÃ¡cter por otro en una cadena
 // ------------------------------------------------------------------------------------------------
 extern "C" void replaceChar( char *str, char oldChar, char newChar) {
     while (*str) {
@@ -17,7 +18,7 @@ extern "C" void replaceChar( char *str, char oldChar, char newChar) {
 }
 
 // ------------------------------------------------------------------------------------------------
-// Función para convertir texto de ISO-8859-1 a UTF-8 
+// FunciÃ³n para convertir texto de ISO-8859-1 a UTF-8 
 // ------------------------------------------------------------------------------------------------
 extern "C" void convertISO88591ToUTF8(const char *input, char *output) {
     while (*input) {
@@ -33,7 +34,7 @@ extern "C" void convertISO88591ToUTF8(const char *input, char *output) {
 }
 
 // ------------------------------------------------------------------------------------------------
-// Función para convertir texto de UTF-8 a ISO-8859-1
+// FunciÃ³n para convertir texto de UTF-8 a ISO-8859-1
 // ------------------------------------------------------------------------------------------------
 extern "C" void convertUTF8ToISO88591(const char *input, char *output) {
     while (*input) {
