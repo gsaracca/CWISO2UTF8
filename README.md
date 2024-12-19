@@ -5,7 +5,9 @@
 ! ========================================================================== !
 !  Include the file (cw_iso_2_uft.inc.INC) in your program MAP
 ! ========================================================================== !
-!! MAP
+
+
+! MAP
 
     module('convert_iso_2_utf.cpp')
         replaceChar( *cstring str, short oldChar, short newChar),raw,name('_replaceChar')
